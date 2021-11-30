@@ -160,7 +160,7 @@ p a {
 .bannerHeade p {
     background-color: #ffffff;
     width: 600px;
-    margin: 0px 0px 0px 170px;
+    margin: auto;
     border-radius: 40px;
     color: #267400;
     font-style: italic;
@@ -301,8 +301,86 @@ footer p {
 
  
 
-/* Large Mobile screen :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
- 
+/* Small Laptop/Tablet screen :1024px - 768. */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   main , footer{
+      width: 98%; 
+  }
+  .numbers h1 { 
+      font-size: 44px; 
+  }
+  .contentBlk_img img { 
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px; 
+  }
+
 
 }
+/* Mobile screen :767px. */
+@media only screen and (max-width: 767px) {
+  main , footer{
+    width: 98%; 
+  }
+  main{
+    padding: 10px
+  }
+  .numbers h1 { 
+      font-size: 18px; 
+  }
+  .contentBlk_img img { 
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px; 
+  }
+  .numbers h1 span { 
+    font-size: 13px; 
+  }
+  .bannerHeade h1 { 
+      font-size: 38px;
+  }
+  .bannerHeade p { 
+      width: 100%; 
+      font-size: 14.5px;
+      padding: 13px 5px;
+  }
+  .bannerHeade { 
+      margin-top: 5px;
+      margin-bottom: 0;
+  }
+  .order_blk {  
+      width: 100%; 
+      margin-bottom: 15px;
+      text-align: center !important;
+  }
+  .title-banner { 
+      font-size: 18.5px; 
+      margin-top: 10px;
+  }
+  .contentBlk { 
+      margin-top: 30px;
+      flex-wrap: wrap;
+  }
+  .contentBlk_wrp {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .theme-btn { 
+      padding: 5px 20px; 
+      font-size: 15px; 
+      width: 100%;
+      margin-top: 20px;
+      text-align:center;
+  }
+  .footer-wrp { 
+      flex-wrap: wrap;
+  }
+  .footer-wrp ul {
+      width: 190px;
+      margin: 15px 0;
+  }
+
+
+} 
