@@ -5,7 +5,7 @@ body {
   font-weight: 400; 
   color: #333333;
   font-size: 14.4px;
-  background-image: url(assets/img/grass2_bg.jpg);
+  background: url(../img/grass2_bg.jpg);
   background-repeat: repeat;
   background-position: center; 
 }
